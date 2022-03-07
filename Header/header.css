@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(89, 89, 196, 0.788);
+  color: white;
+  padding: 0 8%;
+}
+
+ul {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+h1, li {
+  cursor: pointer;
+}
+
+li {
+  transition: box-shadow 0.3s, color 0.3s;
+}
+
+li:hover {
+  box-shadow: 0 2px orange;
+  color: rgb(196, 33, 60);
+}
+
